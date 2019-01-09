@@ -1,0 +1,15 @@
+//
+//  ViewController.h
+//  Jungian Typology
+//
+//  Created by Kartikeya Chauhan on 09/01/19.
+//  Copyright © 2019 Jungian Typology. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface ViewController : UIViewController
+
+
+@end
+
