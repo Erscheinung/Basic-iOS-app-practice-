@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2A218B9521E62B9D007A0CFF /* Jungian Typology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jungian Typology.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A218B9521E62B9D007A0CFF /* InstaMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A218B9921E62B9D007A0CFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2A218B9B21E62B9D007A0CFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2A218B9C21E62B9E007A0CFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,10 +45,10 @@
 		2A218BA421E62B9E007A0CFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A218BA721E62B9E007A0CFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A218BA921E62B9E007A0CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A218BAE21E62B9E007A0CFF /* Jungian TypologyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jungian TypologyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A218BAE21E62B9E007A0CFF /* InstaMailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaMailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A218BB221E62B9E007A0CFF /* Jungian_TypologyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jungian_TypologyTests.m; sourceTree = "<group>"; };
 		2A218BB421E62B9E007A0CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A218BB921E62B9E007A0CFF /* Jungian TypologyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jungian TypologyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A218BB921E62B9E007A0CFF /* InstaMailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaMailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A218BBD21E62B9E007A0CFF /* Jungian_TypologyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jungian_TypologyUITests.m; sourceTree = "<group>"; };
 		2A218BBF21E62B9E007A0CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,9 +91,9 @@
 		2A218B9621E62B9D007A0CFF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2A218B9521E62B9D007A0CFF /* Jungian Typology.app */,
-				2A218BAE21E62B9E007A0CFF /* Jungian TypologyTests.xctest */,
-				2A218BB921E62B9E007A0CFF /* Jungian TypologyUITests.xctest */,
+				2A218B9521E62B9D007A0CFF /* InstaMail.app */,
+				2A218BAE21E62B9E007A0CFF /* InstaMailTests.xctest */,
+				2A218BB921E62B9E007A0CFF /* InstaMailUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,9 +143,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2A218B9421E62B9D007A0CFF /* Jungian Typology */ = {
+		2A218B9421E62B9D007A0CFF /* InstaMail */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A218BC221E62B9E007A0CFF /* Build configuration list for PBXNativeTarget "Jungian Typology" */;
+			buildConfigurationList = 2A218BC221E62B9E007A0CFF /* Build configuration list for PBXNativeTarget "InstaMail" */;
 			buildPhases = (
 				2A218B9121E62B9D007A0CFF /* Sources */,
 				2A218B9221E62B9D007A0CFF /* Frameworks */,
@@ -155,14 +155,14 @@
 			);
 			dependencies = (
 			);
-			name = "Jungian Typology";
+			name = InstaMail;
 			productName = "Jungian Typology";
-			productReference = 2A218B9521E62B9D007A0CFF /* Jungian Typology.app */;
+			productReference = 2A218B9521E62B9D007A0CFF /* InstaMail.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2A218BAD21E62B9E007A0CFF /* Jungian TypologyTests */ = {
+		2A218BAD21E62B9E007A0CFF /* InstaMailTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A218BC521E62B9E007A0CFF /* Build configuration list for PBXNativeTarget "Jungian TypologyTests" */;
+			buildConfigurationList = 2A218BC521E62B9E007A0CFF /* Build configuration list for PBXNativeTarget "InstaMailTests" */;
 			buildPhases = (
 				2A218BAA21E62B9E007A0CFF /* Sources */,
 				2A218BAB21E62B9E007A0CFF /* Frameworks */,
@@ -173,14 +173,14 @@
 			dependencies = (
 				2A218BB021E62B9E007A0CFF /* PBXTargetDependency */,
 			);
-			name = "Jungian TypologyTests";
+			name = InstaMailTests;
 			productName = "Jungian TypologyTests";
-			productReference = 2A218BAE21E62B9E007A0CFF /* Jungian TypologyTests.xctest */;
+			productReference = 2A218BAE21E62B9E007A0CFF /* InstaMailTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2A218BB821E62B9E007A0CFF /* Jungian TypologyUITests */ = {
+		2A218BB821E62B9E007A0CFF /* InstaMailUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A218BC821E62B9E007A0CFF /* Build configuration list for PBXNativeTarget "Jungian TypologyUITests" */;
+			buildConfigurationList = 2A218BC821E62B9E007A0CFF /* Build configuration list for PBXNativeTarget "InstaMailUITests" */;
 			buildPhases = (
 				2A218BB521E62B9E007A0CFF /* Sources */,
 				2A218BB621E62B9E007A0CFF /* Frameworks */,
@@ -191,9 +191,9 @@
 			dependencies = (
 				2A218BBB21E62B9E007A0CFF /* PBXTargetDependency */,
 			);
-			name = "Jungian TypologyUITests";
+			name = InstaMailUITests;
 			productName = "Jungian TypologyUITests";
-			productReference = 2A218BB921E62B9E007A0CFF /* Jungian TypologyUITests.xctest */;
+			productReference = 2A218BB921E62B9E007A0CFF /* InstaMailUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -221,7 +221,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2A218B9021E62B9D007A0CFF /* Build configuration list for PBXProject "Jungian Typology" */;
+			buildConfigurationList = 2A218B9021E62B9D007A0CFF /* Build configuration list for PBXProject "InstaMail" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -234,9 +234,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2A218B9421E62B9D007A0CFF /* Jungian Typology */,
-				2A218BAD21E62B9E007A0CFF /* Jungian TypologyTests */,
-				2A218BB821E62B9E007A0CFF /* Jungian TypologyUITests */,
+				2A218B9421E62B9D007A0CFF /* InstaMail */,
+				2A218BAD21E62B9E007A0CFF /* InstaMailTests */,
+				2A218BB821E62B9E007A0CFF /* InstaMailUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -300,12 +300,12 @@
 /* Begin PBXTargetDependency section */
 		2A218BB021E62B9E007A0CFF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2A218B9421E62B9D007A0CFF /* Jungian Typology */;
+			target = 2A218B9421E62B9D007A0CFF /* InstaMail */;
 			targetProxy = 2A218BAF21E62B9E007A0CFF /* PBXContainerItemProxy */;
 		};
 		2A218BBB21E62B9E007A0CFF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2A218B9421E62B9D007A0CFF /* Jungian Typology */;
+			target = 2A218B9421E62B9D007A0CFF /* InstaMail */;
 			targetProxy = 2A218BBA21E62B9E007A0CFF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -428,7 +428,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Jungian Typology/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.JungianTypology.Jungian-Typology";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HackathonProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -439,7 +439,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Jungian Typology/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.JungianTypology.Jungian-Typology";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HackathonProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -452,7 +452,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.JungianTypology.Jungian-TypologyTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jungian Typology.app/Jungian Typology";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaMail.app/InstaMail";
 			};
 			name = Debug;
 		};
@@ -464,7 +464,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.JungianTypology.Jungian-TypologyTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jungian Typology.app/Jungian Typology";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaMail.app/InstaMail";
 			};
 			name = Release;
 		};
@@ -493,7 +493,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A218B9021E62B9D007A0CFF /* Build configuration list for PBXProject "Jungian Typology" */ = {
+		2A218B9021E62B9D007A0CFF /* Build configuration list for PBXProject "InstaMail" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A218BC021E62B9E007A0CFF /* Debug */,
@@ -502,29 +502,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A218BC221E62B9E007A0CFF /* Build configuration list for PBXNativeTarget "Jungian Typology" */ = {
+		2A218BC221E62B9E007A0CFF /* Build configuration list for PBXNativeTarget "InstaMail" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A218BC321E62B9E007A0CFF /* Debug */,
 				2A218BC421E62B9E007A0CFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		2A218BC521E62B9E007A0CFF /* Build configuration list for PBXNativeTarget "Jungian TypologyTests" */ = {
+		2A218BC521E62B9E007A0CFF /* Build configuration list for PBXNativeTarget "InstaMailTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A218BC621E62B9E007A0CFF /* Debug */,
 				2A218BC721E62B9E007A0CFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		2A218BC821E62B9E007A0CFF /* Build configuration list for PBXNativeTarget "Jungian TypologyUITests" */ = {
+		2A218BC821E62B9E007A0CFF /* Build configuration list for PBXNativeTarget "InstaMailUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A218BC921E62B9E007A0CFF /* Debug */,
 				2A218BCA21E62B9E007A0CFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
